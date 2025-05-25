@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Under Maintenance</title>
+    <style>
+        /* Resetting margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://via.placeholder.com/1500') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Main container for content */
+        .maintenance-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            max-width: 700px;
+            width: 100%;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 42px;
+            font-weight: bold;
+            color: #FF6347;
+            margin-bottom: 20px;
+        }
+
+        /* Text styling */
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            background-color: #FF6347;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e5533e;
+        }
+
+        /* Image styling for logo */
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .btn {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="maintenance-container">
+        <img src="img/icon.jpg" alt="Logo" class="logo">
+        <h1>We're Temporarily Offline</h1>
+        <p>We are currently undergoing scheduled maintenance as part of backend system enhancements. Our team is working hard to bring the site back online. Thank you for your patience.</p>
+        <p>We’ll be back shortly!</p>
+        <a href="mailto:HR@FE-inc.co" class="btn">Contact Support</a>
+    </div>
+
+</body>
+</html>
